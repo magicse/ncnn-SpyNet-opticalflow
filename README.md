@@ -1,5 +1,7 @@
 # ncnn-SpyNet-opticalflow
-Model from [open-mmlab](https://download.openmmlab.com/mmediting/restorers/basicvsr/spynet_20210409-c6c1bd09.pth).
+ncnn is a high-performance neural network - [NCNN](https://github.com/Tencent/ncnn)
+
+SpyNet model - [open-mmlab](https://download.openmmlab.com/mmediting/restorers/basicvsr/spynet_20210409-c6c1bd09.pth).
 <img src="https://oss.openmmlab.com/www/openmmlab_logo.png" height="50"/>
 
 Based on the paper [Optical Flow Estimation using a Spatial Pyramid Network](https://arxiv.org/abs/1611.00850).
