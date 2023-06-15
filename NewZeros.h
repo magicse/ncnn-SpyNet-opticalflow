@@ -21,7 +21,7 @@ class NewZeros : public ncnn::Layer
         //int h_up = h_in/div;
 		int w_up = (w_in + div - 1) / div;
         int h_up = (h_in + div - 1) / div;
-        std::cout << "w_up: " << w_up << " h_up: " << h_up << std::endl;
+        //std::cout << "w_up: " << w_up << " h_up: " << h_up << std::endl;
         top_blob.create(w_up, h_up, channels, elemsize, opt.blob_allocator);
         if (top_blob.empty())
             return -100;
