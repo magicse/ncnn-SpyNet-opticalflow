@@ -36,12 +36,8 @@ public:
             int x = i % w_in;
             int y = i / w_in;
 
-
-            //top_data[i*channels] = static_cast<float>(x);
-            //top_data[i*channels+1] = static_cast<float>(y);
             top_data[i*channels] = bottom_data0[i];
             top_data[i*channels+1] = bottom_data1[i];
-            //top_blob.reshape(channels, w, h, d);
         }
 
         return 0;
