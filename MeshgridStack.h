@@ -21,7 +21,6 @@ public:
             return -100;
 
         float* top_data = top_blob;
-        //int size = w_in * h_in;
         int size = w_in * h_in;
 
         #pragma omp parallel for num_threads(opt.num_threads)
